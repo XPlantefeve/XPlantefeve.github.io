@@ -22,8 +22,8 @@ layout: compress
                     </a>
                 </div>
                 <div class="post-list">
-                    {% for log in site.logs %} 
-                        {% if log.log %}
+{% assign sorted = site.logs | sort: 'date' | reverse %}
+                    {% for log in sorted %} 
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
                             <a class="zoombtn" href="{{ site.url }}{{ log.url }}">{{ log.title }}</a>
@@ -31,7 +31,6 @@ layout: compress
                             <a href="{{ site.url }}{{ log.url }}" class="btn zoombtn">Read More</a>
                         </li>
                     </ul>
-                      {% endif %}
                     {% endfor %}
                 </div>
             </div>
