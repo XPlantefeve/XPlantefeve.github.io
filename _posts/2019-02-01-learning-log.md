@@ -37,13 +37,13 @@ comments: true
 
 There are several types in AccountManagement (user, computer, group, etc.), but *Principal* has a FindByIdentity that works for everything. It even works for local accounts,  without having to switch from *Domain* to *Machine* context.
 
-~~~ powershell
+```powershell
 Add-Type -AssemblyName System.DirectoryServices.AccountManagement
 $context = [DirectoryServices.AccountManagement.PrincipalContext]::new('Domain')
 ciminstance Win32_UserProfile | % {
     [DirectoryServices.AccountManagement.Principal]::FindByIdentity($context,$_.SID)
 }
-~~~
+```
 
 Dug through Chocolatey doc and code to find how to install to non-default paths:
 `choco install ruby --params "/InstallDir:c:\stuff\ruby"`
