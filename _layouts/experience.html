@@ -22,13 +22,19 @@ layout: compress
                     </a>
                 </div>
                 <div class="post-list">
-{% assign sorted = site.logs | sort: 'date' | reverse %}
-                    {% for log in sorted %} 
+{% assign sorted = site.experiences | sort: 'date' | reverse %}
+                    {% for xp in sorted %} 
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            <a class="zoombtn" href="{{ site.url }}{{ log.url }}">{{ log.title }}</a>
-                            <p>{{ log.excerpt }}</p>
-                            <a href="{{ site.url }}{{ log.url }}" class="btn zoombtn">Read More</a>
+<div class="entry-meta">
+<a class="zoombtn" id="{{ xp.name }}">{{ xp.title }}</a>
+    <ul>
+<li>{{ xp.from }}-{{ xp.to }}</li>
+        <li>{{ xp.where }}</li>
+    </ul>
+    </div>
+                            <p>{{ xp.description }}</p>
+                            <!--<a href="{{ site.url }}{{ log.url }}" class="btn zoombtn">Read More</a>-->
                         </li>
                     </ul>
                     {% endfor %}

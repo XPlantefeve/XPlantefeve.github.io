@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "02 Feb. 2019"
+title:  "01 Feb. 2019"
 date:   2019-02-01
 excerpt: "More WMI and .NET."
 log: true

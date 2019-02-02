@@ -1,7 +1,7 @@
 # Site
 title:              Building XP
 bio:                'Organic Automation and free range musings.'
-description:        "Let's be honest: I have no idea what this is all about. So let's have fun and learn things."
+description:        "Let's be honest: I have no idea what this is all about. So amuse ourselves with learning things."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/xavier2.png'
@@ -77,3 +77,15 @@ jekyll-mentions:
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
 
+collections_dir: content
+
+collections:
+  logs:
+    layout: post
+    log: true
+    comments: true
+    output: true
+    permalink: /log/:year/:month/:day/:title
+  experiences:
+    layout: post
+    output: true
