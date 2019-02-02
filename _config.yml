@@ -8,7 +8,7 @@ logo:               'assets/img/xave.png'
 background:         'assets/img/theniknewiwasalive.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_GB
-url:                https://xplantefeve.github.io/
+url:                https://xplantefeve.github.io
 
 # Jekyll
 permalink:          /:title/
