@@ -1,14 +1,14 @@
 # Site
 title:              Building XP
 bio:                'Organic Automation and free range musings.'
-description:        "Let's be honest: I have no idea what this is all about. So amuse ourselves with learning things."
+description:        "Let's be honest: I have no idea what this is all about. So why not amusing ourselves with learning things?"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/xavier2.png'
 background:         'assets/img/theniknewiwasalive.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_GB
-url:                https://xplantefeve.github.io
+url:                https://xavier.plantefeve.fr/
 
 # Jekyll
 permalink:          /:title/
@@ -89,3 +89,5 @@ collections:
   experiences:
     layout: post
     output: true
+  posts:
+    permalink: /posts/:title
