@@ -13,7 +13,7 @@ comments: true
 
 # 2019-02-01
 
-- Powershell.org forums [don't help me more](https://powershell.org/forums/topic/silly-question-about-inputs-outputs-comments-based-help-format/) than Reddit.
+- Powershell.org forums [doesn't help me more](https://powershell.org/forums/topic/silly-question-about-inputs-outputs-comments-based-help-format/) than Reddit.
 - Several ways of distinguishing Desktops and Laptops:
   - [Win32_SystemEnclosure.ChassisTypes](https://blogs.technet.microsoft.com/heyscriptingguy/2004/09/21/how-can-i-determine-if-a-computer-is-a-laptop-or-a-desktop-machine/)
   - [Win32_SystemComputer.PCSystemType](http://stonywall.com/2017/05/01/wmi-filtering-based-on-computer-type-desktop-laptop/)
