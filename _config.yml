@@ -4,7 +4,7 @@ bio:                'Organic Automation and free range musings.'
 description:        "Let's be honest: I have no idea what this is all about. So let's have fun and learn things."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/xave.png'
+logo:               'assets/img/xavier2.png'
 background:         'assets/img/theniknewiwasalive.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_GB
@@ -24,6 +24,8 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
+future: false
+timezone: Europe/Brussels
 
 # Comments
 disqus_shortname:   xplantefeve
@@ -74,3 +76,4 @@ jekyll-mentions:
 
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+
