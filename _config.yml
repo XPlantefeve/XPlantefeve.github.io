@@ -80,9 +80,12 @@ exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.j
 collections_dir: content
 
 collections:
-  log:
+  logs:
     layout: post
     log: true
     comments: true
     output: true
-    permalink: /:collection/:year/:month/:day/:title
+    permalink: /log/:year/:month/:day/:title
+  experiences:
+    layout: post
+    output: true
