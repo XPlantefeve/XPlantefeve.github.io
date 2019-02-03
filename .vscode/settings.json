@@ -1,5 +1,11 @@
 {
     "files.eol": "\n",
     "editor.minimap.renderCharacters": false,
-    "editor.cursorBlinking": "smooth"
+    "editor.cursorBlinking": "smooth",
+    "markdownlint.config": {
+        "MD013": true,
+        "MD002": {
+            "level": 2
+        }
+    }
 }
