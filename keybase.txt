@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/xplantefeve
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://xavier.plantefeve.fr
+  * I am xplantefeve (https://keybase.io/xplantefeve) on keybase.
+  * I have a public key with fingerprint BBA5 AAF0 DC6E 481C 091E  A57D 8230 1914 C28F 3C6E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010188e43d0e72426e346565c3ad9f226687b1978c3641ee35114d8ffa4e9f1558940a",
+      "fingerprint": "bba5aaf0dc6e481c091ea57d82301914c28f3c6e",
+      "host": "keybase.io",
+      "key_id": "82301914c28f3c6e",
+      "kid": "010188e43d0e72426e346565c3ad9f226687b1978c3641ee35114d8ffa4e9f1558940a",
+      "uid": "ff6bb99411c576708b3eb714e9186419",
+      "username": "xplantefeve"
+    },
+    "service": {
+      "hostname": "xavier.plantefeve.fr",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1549291009,
+  "expire_in": 157680000,
+  "prev": "3f4dc60a98b011788b72fca8b73b62a864ea7b1cc12b76e29ee2563cb3d211ea",
+  "seqno": 27,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMItAnicrZJbSBRRHMZ3vSSuCFaaKBE0lBQsOmfusxZUBKGBVgbdzO3MzBkd12Z2
+Z2c3xVsY1INdkB4qxAwNLTSTMogo1BA0IkifLLuYgpa2kKBRhtgZSXrpsfNyOOf8
+vu98//85A4nRDpezK32k53Cj8cD5sr815Cg8muesJCRDqSA8lYQPrUyoTEFBy+vT
+FMJDkIAEgoAYWiERTzEUh2iGYzlWpqEiqhTFcQIvAZEXZJpjAEI0CwCjCKoKGSSq
+gGUFkSEh4SZUTS9Gpt/UdAvbShJkIVRJReYQIwCZFAGCLK8IFE0CETAyJag0PsPC
+EiNoK3A4CQZRpmbgPbzwrsT7B/+fc4dW7FSVkyRRZACQWZ7jSUGikcQDzAIB60Ub
+DCJTh6cRpsv9ZVC3kIrCiKh2E/ggrMnI7q1dzCoEwxoyM/+imaqJbfymYRmyUYaJ
+EsvyBz22g1XhtyVnkOT9Y+aVNF3BLcWKMDKDmqETHoBJ2dJsd8AyIiUCkhTdBCr3
+aybyajaBwwskHvY9KIwtaZXBb0BCUZBIAHhBkHhKlSGeaImjIC4OQdwoWQaUxHOI
+EhGiWI6WJVqhAH4zwi4voBuEh+JxTliMPYNasQ6tkImLf95XGONwuhxrYqPsv+Zw
+xSet/sCtW+KWkn8ljiYtgPb8EyNzH5umSy+54iv3VTVN+SZrllKzY8uPjKXm3G/I
+UIqI97d3HzhXe+HtxsH9A3eXw9tar6QcHOxOQ52pEztrcjdXZY1n5ye1ltybbYi0
+NHa2DJ91B/qubs+tjvPNvD7pfzpZNOFtce3ybJiJ2/NCubaj0VnYvBjVFfrek1L9
+Y/2rxcXe3nfehYTP9Z9K55XHqvfZ8PmEGP1b+FHal97ZwNT10Rs1BesItu1D+lj0
+Ytax5WR/0vyd2p85oU1Dt4qi+W5fc23dUEL/15GO1JmpQz2BgsipuYK1D9vGIxl1
+T95UkDofudnRPra34mJewvHL7dPlc/UxHr30N75bR6M=
+=ynZc
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/xplantefeve
+
+==================================================================
