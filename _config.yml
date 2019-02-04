@@ -9,7 +9,6 @@ background:         'assets/img/theniknewiwasalive.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_GB
 url:                https://xavier.plantefeve.fr
-google.verify:      'RUgXLjdm6kFc3fBrKO32-nFlc522kbhfpjLJzoNH7GA'
 
 # Jekyll
 permalink:          /:title/
@@ -34,13 +33,13 @@ disqus_shortname:   xplantefeve
 
 # Social
 # if you don't have any of social below, comment the line.
-#google:
+google:
   #plus:            #username
   #analytics:
-  #verify:
+  verify:           RUgXLjdm6kFc3fBrKO32-nFlc522kbhfpjLJzoNH7GA
   #ad-client:
   #ad-slot:
-#bing-verify:
+bing-verify:        BE869B2802CA9CF31CED0BB9E7DC4535
 email:              xavier@plantefeve.fr
 twitter:            xplantefeve
 # facebook:           username
