@@ -1,3 +1,14 @@
+---
+layout: post
+title: Stop Dropbox from using my metered connection
+date:   2019-02-03
+# excerpt:
+log: true
+tag:
+comments: true
+---
+
+```powershell
 [void][Windows.Networking.Connectivity.NetworkInformation, Windows, ContentType = WindowsRuntime]
 $ConnectionProfile = [Windows.Networking.Connectivity.NetworkInformation]::GetInternetConnectionProfile()
 
@@ -13,3 +24,4 @@ If (
     ps Dropbox | kill
     service CrashPlanService | Stop-Service
 }
+```
