@@ -28,7 +28,7 @@ I wondered: can I cut down the typing? After all, as once said Saint Jeffrey Sno
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The secret is that the best engineers are lazy.  They love automation &amp; will spend days to automate something. <a href="https://t.co/X1Ab8pNURk">https://t.co/X1Ab8pNURk</a></p>&mdash; Jeffrey Snover (@jsnover) <a href="https://twitter.com/jsnover/status/622025108400398336?ref_src=twsrc%5Etfw">July 17, 2015</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Ok, spending dzays on that would have been a bit much, but it stayed somewhere on my mind.
+Ok, spending days on that would have been a bit much, but it stayed somewhere on my mind.
 I had an idea about how to do it, but didn't see how to use the pipeline for a cmdlet you
 had the name of in a string. Then while falling asleep yesterday: it dawned to me: *alias*...
 
@@ -56,7 +56,6 @@ Cmdlet          Start-Service                                      3.1.0.0    Mi
 Cmdlet          Stop-Service                                       3.1.0.0    Microsoft.PowerShell.Management
 Cmdlet          Suspend-Service                                    3.1.0.0    Microsoft.PowerShell.Management
 ```
-
 You can get commands by verb, too:
 
 ```powershell
@@ -101,6 +100,7 @@ a result (Oh, BTW, did you know that *Something* is always an alias for *Get-Som
 PS> service BITS | restart
 PS> module MyTools | remove
 PS> job 5 | stop
+PS> ps | ? responding -EQ $false | stop # it handles the pipeline, too.
 ```
 
 I put the whole thing in a gist:
