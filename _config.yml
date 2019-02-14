@@ -8,7 +8,7 @@ logo:               'assets/img/xavier2.png'
 background:         'assets/img/theniknewiwasalive.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_GB
-url:                https://xavier.plantefeve.fr
+url:                https://xplantefeve.io
 
 # Jekyll
 permalink:          /:title/
@@ -36,7 +36,7 @@ disqus_shortname:   xplantefeve
 google:
   #plus:            #username
   #analytics:
-  verify:           RUgXLjdm6kFc3fBrKO32-nFlc522kbhfpjLJzoNH7GA
+  verify:           Qiu2n2YcTRijISfsvTIFf4oJt6DQWfERvTobQfu2W7o
   #ad-client:
   #ad-slot:
 bing-verify:        BE869B2802CA9CF31CED0BB9E7DC4535
