@@ -3,7 +3,7 @@ layout: post
 title: Do-Something, the very lazy way
 date:   2019-02-14
 excerpt: GUI is lazy, typing is lazier, typing less is the laziest
-log: true
+post: true
 tag:
     - Powershell
     - Alias
