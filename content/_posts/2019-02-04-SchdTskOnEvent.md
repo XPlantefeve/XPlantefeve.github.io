@@ -3,7 +3,7 @@ layout: post
 title: Create Scheduled Tasks on an event with PowerShell
 date:   2019-02-03
 excerpt: A look at how to create a scheduled task that triggers on an event, the PowerShell way.
-log: true
+post: true
 tag:
     - CIM
     - Scheduled Task
